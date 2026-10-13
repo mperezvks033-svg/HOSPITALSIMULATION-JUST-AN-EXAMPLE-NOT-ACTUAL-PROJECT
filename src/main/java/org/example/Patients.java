@@ -5,8 +5,8 @@ public class Patients {
     //HAS A
     private int id = 0;
     private String chiefComplain = "";
+
     private String[] surgery = {"C-section open",
-                                "C-section laparoscopic",
                                 "Appendectomy open",
                                 "Appendectomy laparoscopic",
                                 "Cholecystectomy open",
@@ -19,11 +19,11 @@ public class Patients {
                                 "Hernia laparoscopic",
                                 "Splenectomy open",
                                 "Splenectomy laparoscopic"
-                                }; //list size = 14
+                                }; //list size = 13
 
     public Patients(int randomNumber){
 
-        id++;
+        id = Simulation.rngNumb().nextInt(10000000,90000000);
         chiefComplain = surgery[randomNumber];
 
     }

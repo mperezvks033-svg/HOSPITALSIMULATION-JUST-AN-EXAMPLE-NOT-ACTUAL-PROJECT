@@ -6,9 +6,17 @@ public class Main {
 
     //Just testing if it works properly
     public static void main(String[] args) {
-        Patients patient = new Patients(Simulation.rngNumb().nextInt(13));
+        Patients patient1 = new Patients(Simulation.rngNumb().nextInt(12));
+        Patients patient2 = new Patients(Simulation.rngNumb().nextInt(12));
+        Patients patient3 = new Patients(Simulation.rngNumb().nextInt(12));
 
         System.out.println();
-        System.out.println(patient);
+        System.out.println(patient1);
+
+        System.out.println();
+        System.out.println(patient2);
+
+        System.out.println();
+        System.out.println(patient3);
     }
 }
