@@ -14,7 +14,7 @@ public class Hospital {
     private void initialPatientsSetUp(){
 
         for(int i = 0; i < listOfPatients.length; i++){
-            listOfPatients[i] = new Patients(Simulation.rngNumb().nextInt(listOfPatients.length));
+            listOfPatients[i] = new Patients(Simulation.rngNumb().nextInt(13));
         }
 
     }
