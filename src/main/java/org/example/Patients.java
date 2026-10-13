@@ -28,5 +28,11 @@ public class Patients {
 
     }
 
+    public String toString() {
+        return "Patient{" +
+                "id = '" + id + '\'' +
+                ", chiefComplain = " + chiefComplain +
+                '}';
+    }
 
 }
